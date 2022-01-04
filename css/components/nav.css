@@ -9,6 +9,7 @@
 }
 .nav-bar__column:hover {
   animation: flip 1s ease-in-out infinite;
+  cursor: pointer;
 }
 
 .logo img {

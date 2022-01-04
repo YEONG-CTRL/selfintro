@@ -20,7 +20,7 @@
     />
   </head>
   <body class="body">
-    <header>
+    <header class="header">
       <div class="logo">
         <a id="logoo" href="#introduction">
           <img
@@ -41,7 +41,7 @@
           </a>
         </div>
         <div class="nav-bar__column">
-          <a href="#Goals">
+          <a href="#goals">
             <span>Goals</span>
           </a>
         </div>
@@ -75,27 +75,48 @@
         </div>
       </div>
       <h1 class="hobbies__header">My hobbies!</h1>
-      <div class="hobbies">
+      <div class="hobbies" id="hobbies">
         <div class="hobbies__one">
           <div class="item front">
             <i class="fas fa-dumbbell fa-5x"></i>
             <span>Workout</span>
           </div>
           <div class="item back">
-            <span>뒷면입니다</span>
+            <ul>
+              <li>weight training</li>
+              <li>football</li>
+              <li>basketball</li>
+            <ul>
           </div>
         </div>
-        <div class="hobbies_two">
-          <i class="fab fa-bitcoin fa-5x"></i>
-          <span>Investing</span>
+        <div class="hobbies__two">
+          <div class="item front">         
+             <i class="fab fa-bitcoin fa-5x"></i>
+            <span>Investing</span>
+          </div>
+          <div class="item back">
+            <ul>
+              <li>Bitcoin</li>
+              <li>Ethereum</li>
+              <li>TSLA</li>
+            </ul>
+          </div>
         </div>
-        <div class="hobbies_three">
+        <div class="hobbies__three">
+          <div class="item front">
           <i class="fas fa-hamburger fa-5x"></i>
           <span>Eating</span>
         </div>
+        <div class="item back">
+          <span>Love everything that I can eat!</span>
+        </div>
+        </div>
+      </div>
+      <div id="goals">
+        
       </div>
 
-      <div id="Goals"></div>
+    
     </main>
     <footer>
       <ul>
@@ -107,5 +128,9 @@
         </li>
       </ul>
     </footer>
+    <div id="splash-screen">
+      <i class="fas fa-gem"></i>
+      <span> Welcome!</span>
+    </div>
   </body>
 </html>
