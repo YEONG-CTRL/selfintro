@@ -12,6 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
   </head>
   <body class="body">
     <header>
@@ -35,8 +41,8 @@
           </a>
         </div>
         <div class="nav-bar__column">
-          <a href="#어쩌고">
-            <span>어쩌고</span>
+          <a href="#Goals">
+            <span>Goals</span>
           </a>
         </div>
       </div>
@@ -44,40 +50,60 @@
     <main>
       <img src="KakaoTalk_20220104_104559917.jpg" />
       <div id="introduction">
-        <div class="introduction__header"></div>
         <div class="introduction__contents">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-            accusantium. Rerum nesciunt laborum quos ad alias est dolores,
-            consequuntur eum quam optio molestias ratione et, ipsam tenetur
-            perferendis reiciendis explicabo?
+            안녕하세요! 개발자를 꿈꾸고 있는 박영서라고 합니다! 운동과 여행,
+            동물을 좋아합니다!
           </p>
           <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
+            <li>1. Name: 박영서</li>
+            <li>
+              2.
+              <label for="age">Guess my age:</label>
+              <input
+                type="text"
+                id="age"
+                name="name"
+                required
+                minlength="4"
+                maxlength="8"
+                size="10"
+              />
+            </li>
+            <li>3. Current Status: Student</li>
           </ul>
         </div>
       </div>
-      <div id="hobbies">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta nemo,
-          adipisci molestias similique tenetur aliquam? Veniam accusantium
-          voluptatibus voluptatem, impedit unde molestiae, provident
-          consequuntur, similique minus voluptates deserunt accusamus deleniti?
-        </p>
+      <h1 class="hobbies__header">My hobbies!</h1>
+      <div class="hobbies">
+        <div class="hobbies__one">
+          <div class="item front">
+            <i class="fas fa-dumbbell fa-5x"></i>
+            <span>Workout</span>
+          </div>
+          <div class="item back">
+            <span>뒷면입니다</span>
+          </div>
+        </div>
+        <div class="hobbies_two">
+          <i class="fab fa-bitcoin fa-5x"></i>
+          <span>Investing</span>
+        </div>
+        <div class="hobbies_three">
+          <i class="fas fa-hamburger fa-5x"></i>
+          <span>Eating</span>
+        </div>
       </div>
-      <div id="어쩌고">
-        <span>dfdfd</span>
-      </div>
+
+      <div id="Goals"></div>
     </main>
     <footer>
       <ul>
         <li>copyright ⓒ 2022 All rights reserved by YeongSeo.</li>
         <li>
-          <a href="1park4170@gmail.com" target="_top">
-            Mail: 1park4170@gmail.com
-          </a>
+          <a href="https://github.com/YEONG-CTRL" target="_top"
+            >Feel free to visit my Github!</a
+          >
         </li>
       </ul>
     </footer>

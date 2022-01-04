@@ -7,3 +7,10 @@
   margin: 0px 45px;
   font-family: "Black Han Sans", sans-serif;
 }
+a {
+  text-decoration: none;
+}
+input {
+  border: 0.7px solid;
+  border-radius: 5px;
+}

@@ -4,4 +4,42 @@ img {
   object-fit: cover;
   display: block;
   margin: 0px auto;
+  padding-top: 10px;
+}
+#introduction {
+  padding: 30px;
+}
+.hobbies {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hobbies__header {
+  display: box;
+}
+.hobbies_one span {
+  justify-content: center;
+  align-items: center;
+}
+.hobbies__header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.hobbies__one .item {
+  backface-visibility: hidden;
+  transition: 1s;
+}
+.hobbies__one .item.front {
+  position: absolute;
+  transform: rotateY(0deg);
+}
+
+.hobbies__one:hover .item.front {
+  transform: rotateY(180deg);
+}
+.hobbies__one .item.back {
+  transform: rotateY(-180deg);
+}
+.hobbies__one:hover .item.back {
+  transform: rotateY(0deg);
 }
