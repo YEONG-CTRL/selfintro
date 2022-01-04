@@ -1,0 +1,9 @@
+@import "components/nav.css";
+@import "components/footer.css";
+
+@import "screen/main.css";
+
+.body {
+  margin: 0px 45px;
+  font-family: "Black Han Sans", sans-serif;
+}
