@@ -1,3 +1,8 @@
+.header {
+  position: fixed;
+  width: 100%;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-around;
@@ -19,11 +24,12 @@
 .logo {
   display: flex;
   float: left;
-  padding-top: 15px;
+  margin-top: 3px;
 }
 .logo_span {
   font-size: 4px;
   color: inherit;
+  color: tomato;
 }
 #logoo {
   text-decoration: none;

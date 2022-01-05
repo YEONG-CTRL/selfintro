@@ -6,8 +6,15 @@ img {
   margin: 0px auto;
   padding-top: 10px;
 }
+#mypic {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
 #introduction {
   padding: 30px;
+}
+.introduction__contents-ul li {
+  padding: 20px 0px;
 }
 .hobbies {
   display: flex;
@@ -65,4 +72,47 @@ img {
   margin-top: 100px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.graph {
+  height: 50px;
+  width: 550px;
+  background: #ccc;
+  border-radius: 10px;
+}
+.graph span {
+  display: block;
+  height: 50px;
+  line-height: 40px;
+  text-align: right;
+  background: skyblue;
+  border-radius: 10px;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+}
+.graph span:active {
+  animation: stack 1.5s ease-in-out;
+  animation-fill-mode: forwards;
+  opacity: 1;
+}
+
+@keyframes stack {
+  0% {
+    width: 0;
+    opacity: 0.3;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+.goals__ul {
+  padding-left: 0px;
+}
+.goals__ul li {
+  margin: 20px;
 }
