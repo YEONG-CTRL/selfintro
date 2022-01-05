@@ -1,11 +1,10 @@
-let ageInput = document.getElementById("ageInput");
-
-function guessAge() {
-  if (ageInput.value === 25) {
-    alert("you're right!");
+function myfunction() {
+  var x = document.getElementById("ageInput").value;
+  if (parseInt(x) === 25) {
+    alert("yes!");
+  } else if (parseInt(x) < 25) {
+    alert("Older than that!");
   } else {
-    alert("NO!");
+    alert("Younger than that!");
   }
 }
-
-.ageInput.addEventListener("change", guessAge);

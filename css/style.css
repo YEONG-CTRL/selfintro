@@ -3,6 +3,10 @@
 
 @import "screen/main.css";
 
+html {
+  scroll-behavior: smooth;
+}
+
 #splash-screen {
   background-color: gainsboro;
   position: absolute;
