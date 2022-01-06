@@ -92,24 +92,22 @@ img {
   opacity: 0;
   align-items: center;
   justify-content: center;
+  animation: stack 1.5s ease-in-out forwards paused;
 }
-.graph span:active {
-  animation: stack 1.5s ease-in-out;
-  animation-fill-mode: forwards;
-  opacity: 1;
+.graph:active span {
+  animation-play-state: running;
 }
 
 @keyframes stack {
   0% {
     width: 0;
-    opacity: 0.3;
+    opacity: 0;
   }
   100% {
     width: 100%;
     opacity: 1;
   }
 }
-
 .goals__ul {
   padding-left: 0px;
 }
