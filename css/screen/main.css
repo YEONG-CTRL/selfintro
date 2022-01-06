@@ -89,7 +89,6 @@ img {
   text-align: right;
   background: skyblue;
   border-radius: 10px;
-  opacity: 0;
   align-items: center;
   justify-content: center;
   animation: stack 1.5s ease-in-out forwards paused;
